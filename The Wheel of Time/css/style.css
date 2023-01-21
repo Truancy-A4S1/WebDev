@@ -1,0 +1,28 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	height: 100%;
+}
+
+/*
+.background
+{
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+}
+*/
+
+.formbox
+{
+
+}
+
+.txtbox
+{
+	opacity: 80%;
+}
