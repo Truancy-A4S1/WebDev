@@ -1,28 +1,80 @@
 body
 {
-	margin: 0px;
+	padding: 0;
+	margin: 0;
+	background-color: black;
+
+}
+.background
+{
 	padding: 0px;
+	margin: 0px;
 	background-image: url('bg.jpg');
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
 	overflow: hidden;
 	height: 100%;
 }
 
-/*
-.background
+header
 {
-	background-image: url('bg.jpg');
-	background-repeat: no-repeat;
+	background-color: #0a0a0a;
+	opacity: 94%;
+	text-align: center;
+	box-shadow: #050505;
+	padding: 15px;
 }
-*/
 
-.formbox
+header li
+{
+	display: inline;
+	padding-left: 45px;
+	transition: .3s ease;
+}
+
+header li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 9px;
+
+}
+
+header li a:hover
+{
+	color: #f5f5dc;
+}
+
+.taggs
 {
 
+	background-color: #090909;
+	border-radius: 10px;
+}
+
+
+.formtable
+{
+	border-color:darkkhaki;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 90%;
+	
+}
+
+.prompt
+{
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .txtbox
 {
-	opacity: 80%;
+	height: 30px;
+}
+
+.records
+{
+
 }
