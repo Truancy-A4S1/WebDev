@@ -7,44 +7,69 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div class="formbox">
-		<form>
-			<table>
+	<header>
+		<ul>
+			<li><a class="taggs" href="#">Home</a></li>
+			<li><a class="taggs" href="#">Maps</a></li>
+			<li><a class="taggs" href="#">Characters</a></li>
+			<li><a class="taggs" href="#">Chapters</a></li>
+			<li><a class="taggs" href="#">Terms</a></li>
+		</ul>
+	</header>
+	
+
+	
+	<div class="background">
+		<br><br><br><br><br><br><br><br><br>
+
+		<form action="details_entry.php" method="post" style="vertical-align: bottom;">
+			<table class="formtable" align="center" border="1" bgcolor="#f0eeeb">
 				<tr>
-					<td>
+					<td class="txtbox" colspan="2" align="center">Character Form</td>
+				</tr>
+
+
+				<tr class="">
+					<td class="prompt">
 						First Name
 					</td>
-					<td class="txtbox">
-						<input type="text" name="">
+					<td>
+						<input class="txtbox" type="text" name="charname">
 					</td>
 				</tr>
 				<tr>
-					<td>
+					<td class="prompt">
 						Last Name
 					</td>
-					<td class="txtbox">
-						<input type="text" name="">
+					<td>
+						<input class="txtbox" type="text" name="charsurname">
 					</td>
 				</tr>
 				<tr>
-					<td>
+					<td class="prompt">
 						Gender
 					</td>
-					<td class="txtbox">
-						<input type="text" name="">
+					<td align="center" class="txtbox">
+						<input type="radio" name="gender" value="Male">Male
+						<input type="radio" name="gender" value="Female">Female
+						
 					</td>
 				</tr>
 				<tr>
-					<td>
+					<td class="prompt">
 						Nationality
 					</td>
 					<td class="txtbox">
-						<input type="text" name="">
+						<input class="txtbox" type="text" name="nationality">
 					</td>
+				</tr>
+				<tr>
+					<td class="txtbox" colspan="2" align="center"><input type="submit" name="save" value="Submit" ></td>
 				</tr>
 
 			</table>
 		</form>
+		<br><br><br><br><br><br><br><br><br>
 	</div>
 </body>
 </html>
