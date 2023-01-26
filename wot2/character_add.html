@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body class="home_bg">
+	
+	<div class="header">
+		<div class="inner_header">
+			<div class="logo_container">
+				<h3>WebsiteYarn?</h3>
+			</div>
+				<ul class="tags">
+					<a class="" href="Home.html"><li>Home</li></a>
+					<a class="" href="map.html"><li>Map</li></a>
+					<a class="" href="character.php"><li>Characters</li></a>
+					<a class="" href="chapter_list.html"><li>Chapters</li></a>
+				</ul>
+		</div>
+	</div>
+	
+	<br><br><br>
+
+	<div class="">
+		<form action="character_add.php" method="post">
+			<table class="formtable" align="center" border="1" bgcolor="#f0eeeb">
+				<tr>
+					<td class="txtbox" colspan="2" align="center">Character Form</td>
+				</tr>
+
+				<tr class="">
+					<td class="prompt">
+						First Name
+					</td>
+					<td>
+						<input class="txtbox" type="text" name="firstname">
+					</td>
+				</tr>
+				<tr>
+					<td class="prompt">
+						Last Name
+					</td>
+					<td>
+						<input class="txtbox" type="text" name="lastname">
+					</td>
+				</tr>
+				<tr>
+					<td class="prompt">
+						Gender
+					</td>
+					<td align="center" class="txtbox">
+						<input type="radio" name="gender" value="Male">Male
+						<input type="radio" name="gender" value="Female">Female
+						
+					</td>
+				</tr>
+				<tr>
+					<td class="prompt">
+						Nationality
+					</td>
+					<td class="txtbox">
+						<input class="txtbox" type="text" name="nationality">
+					</td>
+				</tr>
+				<tr>
+					<td class="txtbox" colspan="2" align="center"><input type="submit" name="save" value="Alpassen ah!" ></td>
+				</tr>
+
+			</table>
+		</form>
+	</div>
+	<br><br>
+
+		<div class="center">
+			<button class="center"><a class="button" href="character.php">VIEW CHARACTERS</a></button>
+		</div>
+
+</body>
+</html>
