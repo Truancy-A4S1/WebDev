@@ -1,0 +1,145 @@
+/* header styles */
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body{
+	background-image: url('https://i.redd.it/phfqep2uyy661.jpg');
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.header{
+	width: 100%;
+	height: 80px;
+	display: block;
+	background-color: rgba(10, 10, 10, 0.9);
+}
+
+.inner_header{
+	width: 1000px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.logo_container{
+	display: table;
+	float: left;
+	height: 100%;
+}
+
+.logo_container h3{
+	font-family: sans-serif;
+	color: white;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 32px;
+}
+
+
+.tags{
+	float: right;
+	height: 100%;
+}
+
+.tags a{
+	float: left;
+	height: 100%;
+	display: table;
+	padding: 0px 20px;
+}
+
+.tags a li{
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.tags a li : hover{
+	color: #ff0000;
+}
+
+.home_cover_no{
+	margin: auto;
+	width: 50%;
+	border: 3px solid;
+	padding: 10px; 
+	width: 1000px; 
+	height: 200px; 
+	position: ;
+	background-color: rgba(5, 5, 5, 0.8);
+}
+
+
+.formtable
+{
+	border-color:darkkhaki;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 90%;
+}
+
+.table1
+{
+	border-color:darkkhaki;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 90%;
+}
+
+.prompt
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.txtbox
+{
+	height: 30px;
+}
+
+.text_promt{
+	color: white;
+	text-decoration: none;
+}
+
+.display_table{
+	border-color:darkkhaki;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.display_table_cell{
+	height: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.center{
+  	color: black;
+  	padding: 15px 32px;
+  	margin-left: auto;
+	margin-right: auto;
+  	border: 1px;
+  	border-radius: 7px;
+}
+
+.center_image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
